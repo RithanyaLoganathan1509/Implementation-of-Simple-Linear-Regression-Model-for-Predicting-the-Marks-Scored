@@ -20,7 +20,6 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Program:
 ```
-# Import required libraries
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -60,10 +59,6 @@ plt.ylabel('Marks Scored')
 plt.title('Simple Linear Regression: Hours vs Marks')
 plt.legend()
 plt.show()
-
-hours = float(input("\nEnter number of study hours: "))
-predicted_marks = model.predict([[hours]])
-print(f"Predicted Marks for studying {hours} hours = {predicted_marks[0]:.2f}")
 ```
 
 ## Output:
